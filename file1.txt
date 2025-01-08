@@ -1,2 +1,2 @@
 this is my file one for git course.
-adding more content ot file one.
+adding more content to file one.
