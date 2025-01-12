@@ -1,0 +1,46 @@
+THIS IS A FILE CREATED FOR THE REFERENCE OF BEGINNERS WHO ARE TRYING TO LEARN GIT BASICS 
+
+git --version : to check the version of git
+pwd : to check your location
+ls : to check all the folders inside the respective folder
+git status : to check the status of git work
+git config --global user.email "your email"(one time for whole duration)
+git config --global user.name "your name"(one time for whole duration)
+git config --list
+git init : to initialise a repository(one time command for a particular folder)
+ls -la : shows hidden folders
+
+git add <file1> <file2> : adds specific files or stages the specific files
+git add . : adds all the files or stages all the files
+git rm --cached <file> : to unstage the files 
+git commit -m "message" : to commit all the changes
+git log : shows history of the repository
+git log --oneline : shows history in short
+
+#branches
+git branch : shows the names of all the branches
+git branch <branch name> : creates new branch
+git switch <branch name> : changes the branch
+git switch -c <branch name> : creates new branch and switches to it
+git checkout <branch name> : switches to branch if it exists
+git branch --delete <branch name> : deletes a branch
+git merge <branch name> : to merge a specific branch with main (do this on main branch)
+git branch <old name> <new name> : renames a branch
+
+#stash
+git stash : saves the work temporarily 
+git stash save "name of stash" : naming the stash while saving
+git stash list : to see the list of stashes
+git stash apply : to apply the latest stash
+git stash apply stash@{0} : applies a particular stash
+git stash pop : this applies the stash and drops it
+git stash drops : deletes stash
+git stash clear : clears the stashes
+
+#pushing on github
+git remote -v : checks remote connection upload
+git remote add origin <http link>  : setting the remote
+git push origin main : pushes the commits to git hub 
+
+
+THANKYOU
